@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Budget</string>
+    <string name="tile_cash">Cash spend</string>
+    <string name="widget_title">You can spend today</string>
+    <string name="widget_desc">How much you can spend today</string>
+    <string name="widget_large_desc">Today\'s amount and your main budget lines</string>
+    <string name="widget_week_desc">This week\'s free money</string>
+</resources>

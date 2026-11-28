@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sticker card: a flat fill, an ink outline and a hard shadow straight down. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="4dp"><shape android:shape="rectangle"><solid android:color="#1E1B3A" /><corners android:radius="24dp" /></shape></item>
+    <item android:bottom="4dp"><shape android:shape="rectangle"><solid android:color="#FFD6D6" /><stroke android:width="2dp" android:color="#1E1B3A" /><corners android:radius="24dp" /></shape></item>
+</layer-list>

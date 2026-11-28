@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/week_root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/widget_card" android:gravity="center_vertical" android:layoutDirection="rtl"
+    android:orientation="vertical" android:paddingStart="16dp" android:paddingEnd="16dp" android:paddingTop="10dp" android:paddingBottom="14dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
+        <TextView android:id="@+id/week_title" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+            android:textColor="#5E5A7A" android:textSize="13sp" android:fontFamily="sans-serif-medium" android:text="مصروف الأسبوع" />
+        <TextView android:id="@+id/week_left" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@drawable/widget_pill_green" android:paddingStart="8dp" android:paddingEnd="8dp" android:paddingTop="2dp" android:paddingBottom="2dp"
+            android:textColor="#0B5236" android:textSize="12sp" android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+    <TextView android:id="@+id/week_amount" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textColor="#1E1B3A" android:textSize="24sp" android:fontFamily="sans-serif-black" android:text="—" />
+    <ProgressBar android:id="@+id/week_green" style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent" android:layout_height="10dp" android:layout_marginTop="6dp"
+        android:max="100" android:progress="0" android:progressDrawable="@drawable/widget_bar_green"
+        android:visibility="visible" />
+    <ProgressBar android:id="@+id/week_amber" style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent" android:layout_height="10dp" android:layout_marginTop="6dp"
+        android:max="100" android:progress="0" android:progressDrawable="@drawable/widget_bar_amber"
+        android:visibility="gone" />
+    <ProgressBar android:id="@+id/week_red" style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent" android:layout_height="10dp" android:layout_marginTop="6dp"
+        android:max="100" android:progress="0" android:progressDrawable="@drawable/widget_bar_red"
+        android:visibility="gone" />
+    <TextView android:id="@+id/week_sub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp"
+        android:maxLines="2" android:textColor="#5E5A7A" android:textSize="12sp" />
+</LinearLayout>

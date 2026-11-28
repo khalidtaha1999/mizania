@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dark sticker card: deep indigo, a soft indigo outline and a black shadow. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="4dp"><shape android:shape="rectangle"><solid android:color="#000000" /><corners android:radius="24dp" /></shape></item>
+    <item android:bottom="4dp"><shape android:shape="rectangle"><solid android:color="#1C1A33" /><stroke android:width="2dp" android:color="#3A3660" /><corners android:radius="24dp" /></shape></item>
+</layer-list>
